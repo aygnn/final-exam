@@ -11,6 +11,23 @@
             font-family:  "Crimson Text";
             letter-spacing: 0;
     }
+    h1{
+        color: blue;
+        font-weight: 600;
+          
+  text-shadow: 
+    
+  var(--x-offset)
+  var(--y-offset)
+  0px
+  var(--background-color), 
+  
+  calc( var(--x-offset) - var(--stroke) )
+  calc( var(--y-offset) + var(--stroke) )
+  0px
+  var(--stroke-color);
+
+    }
     h2{
         font-weight: 400;
         font-size:  46px;
@@ -137,6 +154,7 @@
 }
             }
             }
+          
         }
 
 
@@ -147,6 +165,9 @@
             margin-top: 71px;
             margin-bottom: 64px;
             .event{
+                cursor: pointer;
+            transition: all 0.3s;
+
                 width: 334px;
                 height: 380px;
                 background-color: #fef1e6;
@@ -219,6 +240,10 @@
                     border: 1px solid;
                 }
             }
+            .event:hover {
+                transform: scale(1.02);
+                box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+              }
         }
     }
  

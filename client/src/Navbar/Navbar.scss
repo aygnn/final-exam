@@ -14,7 +14,7 @@
     }
     .homes{
         a{
-
+            transition: 0.3s all;
             color: #b5ccbe;
             text-decoration: none;
             font-family: 'Quicksand', sans-serif;
@@ -29,6 +29,10 @@
             transform: none;
             font-family:  Quicksand;
             letter-spacing: 0;
+        }
+        a:hover{
+            color: white;
+            font-size: 18px;
         }
     }
 }

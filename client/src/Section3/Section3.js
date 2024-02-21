@@ -54,6 +54,7 @@ const handleDefault=()=>{
         <div className='devoted'>
             <h4>Devoted to wonderful beauty</h4>
             <h2>Flowers Pricing</h2>
+        
         </div>
         <div className='search'>
         <TextField id="standard-basic" label="Search" variant="standard" onChange={(e)=>{setSearch(e.target.value)}} />
